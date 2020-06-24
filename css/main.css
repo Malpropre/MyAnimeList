@@ -417,10 +417,12 @@ td small a {
 /*----- credits -----*/
 #copyright {
 	padding:50px 0px 50px 0px;
-	margin-top:-25px !important;
+	background:url(//raw.githubusercontent.com/Malpropre/MyAnimeList/master/images/c-image/ubw2.png), url(//raw.githubusercontent.com/Malpropre/MyAnimeList/master/images/c-image/longkantai.png);
+	background-size: 100%,2160px;
+	background-position: 0 0, 0 0;
+	animation: cr 60s linear infinite;
 	color:#fff;
 	text-shadow:0px 0px 0.5px #fff;
-	background-color:#333;
 }
 
 #copyrght a {
@@ -429,14 +431,6 @@ td small a {
 
 #grand_totals + #copyright {
 	margin-top:-20px !important;
-}
-
-#copyright:hover {
-	background:url(//raw.githubusercontent.com/Malpropre/MyAnimeList/master/images/c-image/ubw2.png),
-		url(//raw.githubusercontent.com/Malpropre/MyAnimeList/master/images/c-image/longkantai.png);
-	background-size: 100%,2160px;
-	background-position: 0 0, 0 0;
-	animation: cr 60s linear infinite;
 }
 
 @keyframes cr {
