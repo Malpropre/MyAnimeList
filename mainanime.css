@@ -3,7 +3,6 @@
 @import url(//cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Expander/comment.css);
 @import url(//cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Expander/score.css);
 @import url(//cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Expander/special.css);
-@import url(//raw.githack.com/Malpropre/MyAnimeList/master/js/randombodyimages.js);
 
 .table_header:nth-of-type(5) {box-shadow:10px 0px 0px rgba(0,0,0,.4);}
 .td1:nth-child(6):last-child, .td2:nth-child(6):last-child, .table_header:nth-child(6):last-child {display:none;}
